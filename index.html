@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number analyzer</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Number analyzer
+        </h1>
+    </header>
+
+    <section>
+        <div id='inf'>
+            Number between  1 and 100:
+            <input type="number" name="nrAnalyzer" id="nrAnalyzer" min="0" value=0>
+            <input type="button" value="Add" onclick="addNum()">
+            <input type="button" value="Clean" onclick="cleanTable()">
+            <select name="table" id="selTable" size = 11></select>
+            <input type="button" value="Analyzer" onclick="analyzerCheck()">
+            
+        </div>
+        <div id='result'>
+            <p id='resAnalyse'> </p>
+        </div>
+        <div id='resStatus'>
+            <br>Fill in the information and check the result!
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

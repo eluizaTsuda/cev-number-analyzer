@@ -1,0 +1,28 @@
+body {
+    background: cornflowerblue;
+    font: normal 13pt Arial;
+}
+
+header {
+    color:cornsilk;
+    text-align: center;
+}
+
+section {
+    background: cornsilk;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(138, 131, 131);
+}
+
+
+select#selTable {
+    width: 150px;
+}
+footer {
+    color:cornsilk;
+    text-align: center;
+    font-style: italic;
+}
